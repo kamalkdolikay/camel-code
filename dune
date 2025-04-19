@@ -1,0 +1,5 @@
+(executable
+ (name main)
+ (modules main bstree zip)
+ (libraries dream lwt_ppx)
+ (preprocess (pps lwt_ppx)))
